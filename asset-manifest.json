@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/react-countdown-timer/static/css/main.a617e044.chunk.css",
-    "main.js": "/react-countdown-timer/static/js/main.55689f52.chunk.js",
-    "main.js.map": "/react-countdown-timer/static/js/main.55689f52.chunk.js.map",
-    "runtime-main.js": "/react-countdown-timer/static/js/runtime-main.5f11afc2.js",
-    "runtime-main.js.map": "/react-countdown-timer/static/js/runtime-main.5f11afc2.js.map",
-    "static/js/2.8dd38d1c.chunk.js": "/react-countdown-timer/static/js/2.8dd38d1c.chunk.js",
-    "static/js/2.8dd38d1c.chunk.js.map": "/react-countdown-timer/static/js/2.8dd38d1c.chunk.js.map",
-    "static/js/3.3155daf3.chunk.js": "/react-countdown-timer/static/js/3.3155daf3.chunk.js",
-    "static/js/3.3155daf3.chunk.js.map": "/react-countdown-timer/static/js/3.3155daf3.chunk.js.map",
+    "main.css": "/react-countdown-timer/static/css/main.277eea0c.chunk.css",
+    "main.js": "/react-countdown-timer/static/js/main.bfbec403.chunk.js",
+    "main.js.map": "/react-countdown-timer/static/js/main.bfbec403.chunk.js.map",
+    "runtime-main.js": "/react-countdown-timer/static/js/runtime-main.85154e6e.js",
+    "runtime-main.js.map": "/react-countdown-timer/static/js/runtime-main.85154e6e.js.map",
+    "static/js/2.873facfc.chunk.js": "/react-countdown-timer/static/js/2.873facfc.chunk.js",
+    "static/js/2.873facfc.chunk.js.map": "/react-countdown-timer/static/js/2.873facfc.chunk.js.map",
+    "static/js/3.a4edd801.chunk.js": "/react-countdown-timer/static/js/3.a4edd801.chunk.js",
+    "static/js/3.a4edd801.chunk.js.map": "/react-countdown-timer/static/js/3.a4edd801.chunk.js.map",
     "index.html": "/react-countdown-timer/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/react-countdown-timer/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.8dd38d1c.chunk.js.LICENSE.txt": "/react-countdown-timer/static/js/2.8dd38d1c.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/react-countdown-timer/static/media/logo.6ce24c58.svg"
+    "static/css/main.277eea0c.chunk.css.map": "/react-countdown-timer/static/css/main.277eea0c.chunk.css.map",
+    "static/js/2.873facfc.chunk.js.LICENSE.txt": "/react-countdown-timer/static/js/2.873facfc.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/react-countdown-timer/static/media/play.01abf9e4.svg",
+    "static/media/acabou.93314e4b.mp4": "/react-countdown-timer/static/media/acabou.93314e4b.mp4",
+    "static/media/surpresa.a6ca06e9.png": "/react-countdown-timer/static/media/surpresa.a6ca06e9.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.5f11afc2.js",
-    "static/js/2.8dd38d1c.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.55689f52.chunk.js"
+    "static/js/runtime-main.85154e6e.js",
+    "static/js/2.873facfc.chunk.js",
+    "static/css/main.277eea0c.chunk.css",
+    "static/js/main.bfbec403.chunk.js"
   ]
 }
