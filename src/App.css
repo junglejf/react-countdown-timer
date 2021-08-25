@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
+@font-face {
+  src: url(fonts/DS-DIGI.TTF);
+  font-family: digital;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.main {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  display:flex;
+  padding-top: 20px;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.acabou {
+  color: white;
+  padding: 10px 25px 10px 35px;
+  align-self: center;
+}
+.acabouImg {
+  margin-top: 10px;
+  padding-left: 190px;
+}
+
+.clock{
+  width: 220px;
+  height: auto;
+  flex-direction: column;
+  display:flex;
+  animation: mymove 5s infinite;
+  overflow: hidden;
+  background-image: radial-gradient(circle, black, green);
+  margin-left: 40%;
+}
+.clockInput > input {
+  height: 100px;
+  width:  100px;
+  text-align: center;
+  font-size: 50px;
+  font-family: digital ;
+  background-image: radial-gradient(circle, black, green);
+  border:0;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.clockButtons {
+  justify-content: space-around;
+  background-color:beige;
+  display: flex;
+  overflow: hidden;
+  background-color: black;
+  padding: 5px;
+}
+.clockButtons > button:hover {
+  background-color: rgb(60, 87, 50);
+  
+}
+.startBtn {
+    background-image: url('images/play.svg');
+    background-size: cover;
+    height: 30px;  
+    width: 30px;
+    border:0;
+    background-color: black;
 }
 
-@keyframes App-logo-spin {
+.clearBtn {
+    background-image: url('images/clear.svg');
+    background-size: cover;
+    height: 30px;  
+    width: 30px;
+    background-color: black;
+    border:0;
+}
+
+.stopBtn {
+    background-image: url('images/pause.svg');
+    background-size: cover;
+    height: 30px;  
+    width: 30px;
+    background-color: black;
+    border:0;
+}
+
+
+@keyframes mymove {
   from {
-    transform: rotate(0deg);
+    border: 2px solid white;
+    border-radius: 25px;
+
   }
   to {
-    transform: rotate(360deg);
+    border: 2px solid rgb(48, 43, 43);
+    border-radius:25px;
   }
 }
+
+.video-responsive {
+  overflow: hidden;
+  align-self: center;
+  padding:10px;
+}
+
+
+
+
