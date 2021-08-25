@@ -1,6 +1,6 @@
 {
   "name": "react-countdown-timer",
-  "homepage": "react-countdown-timer",
+  "homepage": "react-countdown-timer/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
