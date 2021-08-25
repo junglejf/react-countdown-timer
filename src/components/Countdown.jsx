@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from "prop-types";
 const ON = 1;
 const PAUSE = 2;
-const OFF = 0;
 const ONtoOFF = 3;
 class Countdown extends React.Component {
   constructor(props) {
@@ -15,7 +14,6 @@ class Countdown extends React.Component {
     }
   }
   handleTimeInput = (e) => {
-    console.log(e.target.className);
     const { target: {value, className} }= e ;
     this.setState((prevState) => {
       let newValue = parseInt(value, 10) < 0 ? 0 : parseInt(value, 10);
